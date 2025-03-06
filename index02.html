@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filling Line Link Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            width: 80%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 0; /* Added padding for top and bottom */
+        }
+
+        .grid-item {
+            background-color: white;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            max-height: 200px; /* Ensure consistent image size */
+        }
+
+        .label {
+            margin-top: 8px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .full-width-label {
+            grid-column: span 2;
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="full-width-label">
+            FILLING AREA MENU
+        </div>
+
+        <div class="grid-item">
+            <a href="https://app.smartsheet.com/b/form/1924353a15584b5bada829704434c7bf" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/7875/7875866.png" alt="Shift Handover">
+            </a>
+            <div class="label">Shift Handover</div>
+        </div>
+
+        <div class="grid-item">
+            <a href="https://app.smartsheet.com/b/form/c15f00671c76467f82c7ed91904f8f05" target="_blank">
+                <img src="https://thumbs.dreamstime.com/b/kaizen-text-red-grungy-vintage-round-stamp-kaizen-text-red-grungy-vintage-round-rubber-stamp-225165486.jpg" alt="Kaizen">
+            </a>
+            <div class="label">Kaizen</div>
+        </div>
+
+        <div class="grid-item">
+            <a href="https://app.smartsheet.com/b/form/871473bce990477198d948ff536c1543" target="_blank">
+                <img src="https://d36ai2hkxl16us.cloudfront.net/thoughtindustries/image/upload/a_exif,c_fill,w_750,h_361/v1/course-uploads/3283b56a-8236-4fc3-96db-e11fe829f291/0znyx2tfkv2m-LockoutTagout-800x385.png" alt="LOTO">
+            </a>
+            <div class="label">LOTO</div>
+        </div>
+
+        <div class="grid-item">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeaN9Y64ENRN9fgyRLaiwNx8Dq0DgW3dNj6IIG2ezCIp6VfIA/viewform" target="_blank">
+                <img src="https://t4.ftcdn.net/jpg/09/61/41/69/360_F_961416974_FgWZ6WdCXVjM4Vyi1hRcBvHmn52z4FQi.jpg" alt="Near Miss">
+            </a>
+            <div class="label">Near Miss</div>
+        </div>
+
+        <div class="grid-item">
+            <a href="https://app.smartsheet.com/b/form/a9ceba6922714dd38577daa363d3bcd2" target="_blank">
+                <img src="https://cdn1.iconfinder.com/data/icons/security-257/2023/gate_car_pass_security-512.png" alt="Gate Pass">
+            </a>
+            <div class="label">Gate Pass</div>
+        </div>
+
+        <div class="grid-item">
+            <a href="https://app.smartsheet.com/b/form/a14417339d0c453cb5833d9d42005fba" target="_blank">
+                <img src="data:image/png;base64,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" alt="Leave Form">
+            </a>
+            <div class="label">Leave Form</div>
+        </div>
+    </div>
+</body>
+</html>
